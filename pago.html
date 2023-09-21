@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="stylepago.css">
+
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">
+        <img src="logo.jpeg" alt="Logo de la empresa">
+                PAMPER UR PET
+        </div>
+
+    <ul class="menu">
+            <li><a href="paginaprincipal.html">Perfil</a></li>
+            <li><a href="codigo.html">Inicio</a></li>
+    </ul>
+    </nav>
+    
+<div class="container">
+
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Datos del usuario</h3>
+
+                <div class="inputBox">
+                    <span>Nombre Completo:</span>
+                    <input type="text" placeholder="Nombres y Apellidos">
+                </div>
+                <div class="inputBox">
+                    <span>Correo :</span>
+                    <input type="email" placeholder="ejemplo@gmail.com">
+                </div>
+                <div class="inputBox">
+                    <span>Dirección :</span>
+                    <input type="text" placeholder="Direecion de su casa - Numero de la casa">
+                </div>
+                <div class="inputBox">
+                    <span>Distrito :</span>
+                    <input type="text" placeholder="Ejemplo">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Telefono :</span>
+                        <input type="text" placeholder="999-888-777">
+                    </div>
+                    <div class="inputBox">
+                        <span>Raza de mascota :</span>
+                        <input type="text" placeholder=" Raza y Nombre de la mascota">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">Pago</h3>
+
+                <div class="inputBox">
+                    <span>TARJETAS ACEPTADAS:</span>
+                    <img src="card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>Propietario de la tarjeta :</span>
+                    <input type="text" placeholder="Nombre Apellido">
+                </div>
+                <div class="inputBox">
+                    <span>Numero de la tarjeta :</span>
+                    <input type="number" placeholder="1111-2222-3333-4444">
+                </div>
+                <div class="inputBox">
+                    <span>Mes de expiración :</span>
+                    <input type="text" placeholder="Julio">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Año de expiración :</span>
+                        <input type="number" placeholder="2022">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="1234">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submit" value="Realizar pago" class="submit-btn">
+        
+    </form>
+
+</div>    
+<script src="scriptpago.js"></script>
+</body>
+</html>

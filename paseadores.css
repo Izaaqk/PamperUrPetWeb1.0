@@ -1,0 +1,312 @@
+.grupopaseadores2-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.grupopaseadores2-grupopaseadores2 {
+  width: 1331px;
+  height: 923px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.grupopaseadores2-grupo-paseadores {
+  top: 0px;
+  left: 0px;
+  width: 1331px;
+  height: 923px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.grupopaseadores2-image21 {
+  top: 0px;
+  left: 0px;
+  width: 1331px;
+  height: 58px;
+  position: absolute;
+}
+.grupopaseadores2-image22 {
+  top: 0px;
+  left: 0px;
+  width: 1331px;
+  height: 58px;
+  position: absolute;
+}
+.grupopaseadores2-logo15 {
+  top: 4px;
+  left: 23px;
+  width: 55px;
+  height: 51px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.grupopaseadores2-logo1 {
+  top: 0px;
+  left: 0px;
+  width: 55px;
+  height: 51px;
+  position: absolute;
+}
+.grupopaseadores2-text {
+  left: 93px;
+  color: rgba(255, 255, 255, 1);
+  width: 331px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.grupopaseadores2-image23 {
+  top: 58px;
+  left: 0px;
+  width: 1331px;
+  height: 865px;
+  position: absolute;
+}
+.grupopaseadores2-image26 {
+  top: 464px;
+  left: 455px;
+  width: 418px;
+  height: 246px;
+  position: absolute;
+}
+.grupopaseadores2-image3 {
+  top: 477px;
+  left: 34px;
+  width: 365px;
+  height: 246px;
+  position: absolute;
+}
+.grupopaseadores2-text02 {
+  top: 438px;
+  left: 23px;
+  color: rgba(0, 0, 0, 1);
+  width: 369px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.grupopaseadores2-text04 {
+  top: 736px;
+  left: 34px;
+  color: rgba(0, 0, 0, 1);
+  width: 369px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.grupopaseadores2-text06 {
+  top: 736px;
+  left: 464px;
+  color: rgba(0, 0, 0, 1);
+  width: 369px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.grupopaseadores2-text08 {
+  top: 736px;
+  left: 922px;
+  color: rgba(0, 0, 0, 1);
+  width: 369px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.grupopaseadores2-image27 {
+  top: 141px;
+  left: 155px;
+  width: 290px;
+  height: 284px;
+  position: absolute;
+  border-radius: 150px;
+}
+.grupopaseadores2-image29 {
+  top: 477px;
+  left: 903px;
+  width: 408px;
+  height: 246px;
+  position: absolute;
+}
+.grupopaseadores2-text10 {
+  top: 202px;
+  left: 560px;
+  color: rgba(0, 16, 57, 1);
+  width: 609px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.grupopaseadores2-group92 {
+  top: 13px;
+  left: 1012px;
+  width: 132px;
+  height: 30.966413497924805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 153, 0, 1);
+}
+.grupopaseadores2-text12 {
+  top: 5.99346923828125px;
+  left: 7px;
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.grupopaseadores2-group93 {
+  top: 13px;
+  left: 1159px;
+  width: 132px;
+  height: 30.966413497924805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 153, 0, 1);
+}
+.grupopaseadores2-text14 {
+  top: 5.99346923828125px;
+  left: 7px;
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.grupopaseadores2-group94 {
+  top: 13px;
+  left: 718px;
+  width: 132px;
+  height: 30.966413497924805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 153, 0, 1);
+}
+.grupopaseadores2-text16 {
+  top: 5.99346923828125px;
+  left: 7px;
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.grupopaseadores2-group95 {
+  top: 13px;
+  left: 865px;
+  width: 132px;
+  height: 30.966413497924805px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 153, 0, 1);
+}
+.grupopaseadores2-text18 {
+  top: 5.99346923828125px;
+  left: 7px;
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.grupopaseadores2-text20 {
+  top: 202px;
+  left: 560px;
+  color: rgba(0, 16, 57, 1);
+  width: 609px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

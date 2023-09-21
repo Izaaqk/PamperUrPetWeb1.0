@@ -1,0 +1,139 @@
+/* MENU DE NAVEGACION*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  width: 100%;
+  background-image: url('fondonav.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: all 0.5s ease;
+}
+
+.logo {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  margin: 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px; 
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.menu li a:hover {
+  padding: 15px 20px;
+  background-color: #fcd320;
+  color: black;
+  border-radius: 15px;
+}
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url('Fondo.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "lato", sans-serif;
+}
+
+/*BODY*/
+
+body {
+  
+  background-image: url('Fondo.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "PT Sans", sans-serif;
+  
+}
+
+/*POSICIONAMIENTO DEL AVATAR Y TEXTO*/
+
+.bienvenida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+.bienvenida img {
+    width: 40%; 
+    max-width: 250px; 
+    margin-bottom: 20px; 
+}
+  
+.bienvenida h1 {
+    font-size: 4vw; 
+    color: #000000;
+    text-align: left; 
+}
+
+/*POSICIONAMIENTO DE LOS PASEADORES*/
+.Recomendados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Recomendados h2 {
+  width: 100%;
+}
+
+.Recomendados figure {
+  flex: 0 0 calc(33.33% - 10px); /* Ajusta el tamaño de las imágenes y el espacio entre ellas */
+  max-width: calc(33.33% - 10px); /* Ajusta el tamaño de las imágenes y el espacio entre ellas */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px; /* Agrega un espacio entre las imágenes */
+  margin-bottom: 10px; /* Agrega un espacio entre las imágenes */
+}
+
+.Recomendados img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 200px; /* Ajusta el tamaño máximo de las imágenes */
+}
+
+.Recomendados figcaption {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  width: 100%;
+}

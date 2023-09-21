@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* MENU DE NAVEGACION*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  width: 100%;
+  background-image: url('fondonav.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: all 0.5s ease;
+}
+
+.logo {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  list-style: none;
+  margin: 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px; 
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.menu li a:hover {
+  padding: 15px 20px;
+  background-color: #fcd320;
+  color: black;
+  border-radius: 15px;
+}
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url('Fondo.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "lato", sans-serif;
+}
+
+/* FORMULARIO DE INICIAR SESION */
+
+.signupFrm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.form {
+  background-color: rgb(246, 252, 167);
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  position: relative;
+  font-family:system-ui, Roboto,bold;
+  
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+
+.inputContainer img {
+    position: absolute;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    color: #fe9635;
+}
+ 
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #c2830d;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+    padding-right: 30px; 
+  }
+  
+
+
+::placeholder {
+    color: transparent;
+}
+
+  
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color:  rgb(246, 252, 167);
+    color: #fe9635;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+  }
+
+/*POSICION DE LOS BOTONES*/
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+}
+  
+/*BOTON INGRESAR*/
+.submitBtn {
+    display: block;
+    margin-right: 40px;
+    padding: 15px 30px;
+    border: none;
+    background-color: #e77409;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+  
+.submitBtn:hover {
+    background-color: #fe9635;
+    transform: translateY(-2px);
+}
+
+.input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fe9635;
+}
+
+
+.input:focus {
+    border: 2px solid #fe9635;
+}
+
+
+.input:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*EFECTO PARA EL FORMULARIO*/
+.form {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+  
+.form.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*ANIMACION DE IMAGEN DE MASCOTA*/
+.dogAnimation {
+    position: absolute;
+    top: 20%;
+    right: -100px;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 130px;
+    animation: blink 3s infinite;
+  
+}
+
+@keyframes blink {
+  0%, 100% {
+    transform: translate(-50%, -50%);
+  }
+  20%, 80% {
+    transform: translate(-50%, -50%) scale(0.95);
+  }
+  40%, 60% {
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+}
